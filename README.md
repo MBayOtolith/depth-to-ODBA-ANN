@@ -10,6 +10,8 @@ Two white shark dive depth data are provided: `shark_1_data.csv` and `shark_2_da
 ## Code
 The script is in Python. ANN models are built with Keraas and TensorFlow backend. Main srcript is `main.py` where you can adjust model paramsters, such as moving window size, number of training epoch and batch size. ANN model building is in `ANN_train.py` where you can adjust the architecture of neural nets, including number of hidden layers and neurals as well as activation function and optimizer. `smooth.py` and `window_size.py` are the utility scripts, which perform smooth function and apply moving window size to create training data.
 
+After running the main script, the R2 metrics will be outputted to a csv file, and the plots of training and prediction will be generated.
+
 ## Requirements
 - [Anaconda / Python 3.5](https://www.continuum.io/downloads)
 - [TensorFlow 1.12](https://www.tensorflow.org/)
